@@ -117,7 +117,7 @@
 
     <properties>
         <spring-boot.version>2.2.6.RELEASE</spring-boot.version>
-        <spring-cloud-dependencies.version>Hoxton.SR4</spring-cloud-dependencies.version>
+        <spring-cloud-dependencies.version>Hoxton.SR9</spring-cloud-dependencies.version>
         <postgresql.version>42.2.10</postgresql.version>
         <bytebuddy.version>1.10.10</bytebuddy.version>
         <rest-assured.version>3.3.0</rest-assured.version>
@@ -149,7 +149,7 @@
         <maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <exec-maven-plugin.version>1.6.0</exec-maven-plugin.version>
-        <java.version>11</java.version>
+        <java.version>1.8</java.version>
         <log4j.version>1.2.17</log4j.version>
         <esapi.version>2.1.0.1</esapi.version>
         <jmh-core.version>1.19</jmh-core.version>
