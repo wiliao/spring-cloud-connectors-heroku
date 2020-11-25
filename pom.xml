@@ -115,6 +115,25 @@
         </dependencies>
     </dependencyManagement>
 
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				    <configuration>
+			        <mainClass>com.baeldung.spring.cloud.connectors.heroku.ConnectorsHerokuApplication</mainClass>
+			    </configuration>
+			    <executions>
+			        <execution>
+			            <goals>
+			                <goal>repackage</goal>
+			            </goals>
+			        </execution>
+			    </executions>				
+			</plugin>
+		</plugins>
+	</build>
+				
     <properties>
         <spring-boot.version>2.2.6.RELEASE</spring-boot.version>
         <spring-cloud-dependencies.version>Hoxton.SR9</spring-cloud-dependencies.version>
